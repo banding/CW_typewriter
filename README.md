@@ -1,4 +1,4 @@
-#CW typewriter 
+CW typewriter 
 
 The CW typewriter uses an Iambic key as a input device. It acts as the computers keyboard. On it's PCB there's a key input jack, speaker output jack  and uses the Arduino’s USB port for communications with PC.  
 
