@@ -2,7 +2,7 @@ CW typewriter
 
 The CW typewriter uses an Iambic key as a input device. It acts as the computers keyboard. On it's PCB there's a key input jack, speaker output jack  and uses the Arduino’s USB port for communications with PC.  
 
-Choosing the Arduino Leonardo made communicating with the computer's USB port easy. The Leonardo uses a ATmega32u4 micro-controller which can emulate a keyboard or a mouse. I also tested the Arduino Micro board which uses the same micro controller. The Micro has a small form factor which might be better suited for some projects,  I choose the 16 Mhz, 5 volt version. 
+ Choosing the Arduino Leonardo made communicating with the computer's USB port easy. The Leonardo uses a ATmega32u4 micro-controller which can emulate a keyboard or a mouse. I also tested the Arduino Pro Micro board which uses the same micro controller. The Pro Micro has a small form factor which might be better suited for some projects,  I choose the 16 Mhz, 5 volt version. 
 
 CW typewriter Features include: inputs  are Iambic (DIT and DAH), a SPACE switch and WPM speed potentiometer. For outputs there are  key (for the rig's key) , speaker for side tone. The side tone frequency is set in the program listing.
 
@@ -18,8 +18,15 @@ I started practice with note pad. I figured if a computer could understand my CW
 
 GAME:
 
-I wrote a small command line  C program. It was just a proof of concept test program. 
-When using the small command line Practice-program it was necessary to send a return key at the end of each entry.  Reaching over and hitting the return key somehow broke my focus and slow me down. To send the return key I used the Prosign  'AA', (“start new line”). Using the Prosign allowed me to kept my focus on the key, which seem to make my practice go smoother.
+I wrote a small C command line Windows program. Which is part of the download files its named  "CW_typer.zip" unzip it into its own directory. 
+It was just a proof of concept test program. I could use the text files to pratice my code. 
+While using the small command line Practice-program it was necessary to send a return key at the end of each entry.  Reaching over and hitting the return key somehow broke my focus and slow me down. To send the return key I added the Prosign  'AA', (“start new line”) to the Letter array. Using the Prosign allowed me to kept my focus on the key and seemed to make my practice go smoother.
 
-So now I was faced with two wants. First was to rewrite my CW typewriter program to eliminate the unnecessary parts not needed for gaming. Second was to write a simple CW game program which used text files as the input like my little Practice-program did. Having the ability to make up text files of  your own choosing was a nice feature I wanted to keep.  Additionally I had a couple of caveats. I wanted to make the code “open source”. Since it's a simple little program I hope others will add to it, or use it as a guide and thereby allow it to grow. Also wanted it to work on the 3 commonly used operating systems, PC, MAC and Linux. Python plays on all these systems and it seemed like a good choice.
+So now I was faced with two wants. 
+1) Was to rewrite my CW typewriter program to eliminate the unnecessary parts not needed for gaming.
+2)  Second was to write a simple CW game program which used text files as the input like my little Practice-program did.
+With the ability to make up text files of your own choosing was a nice feature I wanted to keep.
+Additionally I had a couple of caveats:
+I wanted to make the code “open source”. Since it's a simple little program I hope others could use it as a starting point and add to it.
+Also wanted it to work on the 3 commonly used operating systems, PC, MAC and Linux. Python plays on all these systems and it seemed like a good choice.
 
