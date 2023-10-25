@@ -19,13 +19,14 @@ I started practice with note pad. I figured if a computer could understand my CW
 GAME:
 
 I wrote a small C command line Windows program. Which is part of the download files its named  "CW_typer.zip" unzip it into its own directory. 
-It was just a proof of concept test program. I could use the text files to pratice my code. 
+It was just a proof of concept test program. With it I could use the text files to practice my code. 
 While using the small command line Practice-program it was necessary to send a return key at the end of each entry.  Reaching over and hitting the return key somehow broke my focus and slow me down. To send the return key I added the Prosign  'AA', (“start new line”) to the Letter array. Using the Prosign allowed me to kept my focus on the key and seemed to make my practice go smoother.
 
 So now I was faced with two wants. 
-1) Was to rewrite my CW typewriter program to eliminate the unnecessary parts not needed for gaming.
+1) Wanted to rewrite my CW typewriter program to eliminate the unnecessary parts not needed for gaming.
 2)  Second was to write a simple CW game program which used text files as the input like my little Practice-program did.
 With the ability to make up text files of your own choosing was a nice feature I wanted to keep.
+
 Additionally I had a couple of caveats:
 I wanted to make the code “open source”. Since it's a simple little program I hope others could use it as a starting point and add to it.
 Also wanted it to work on the 3 commonly used operating systems, PC, MAC and Linux. Python plays on all these systems and it seemed like a good choice.
