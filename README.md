@@ -11,7 +11,9 @@ CW typewriter
 
 
 The CW typewriter is small adapter board that uses an Iambic key as a input device. When plugged into the computer’s USB port it uses the Iambic key as the computer’s keyboard. On the adapter there’s a Iambic key input jack, speaker output jack and uses the Arduino’s USB port for communications with PC. 
+
 Files: CW_typewriter
+
 Choosing the Arduino Leonardo made communicating with the computer easy. The Leonardo uses a ATmega32u4 micro-controller which can emulate a keyboard or a mouse. In this application it only emulates the keyboard. I also tested the Arduino Pro Micro board which uses the same micro controller. The Pro Micro has a small form factor which might be better suited for some projects, I choose the 16 Mhz, 5 volt version.
 CW typewriter Features include: inputs are Iambic (DIT on tip and DAH on sleeve), a SPACE switch and WPM speed potentiometer. For outputs there are key (uses the rig’s key input) , speaker for side tone. The side tone frequency is set in the Arduino’s program listing (Sketch_CW_Typewriter, int sideTone = 600; // Frequency in of side tone)
 For the speaker output I would recommend an amplified speaker. I have an old PC speaker set Some stations might want to use their rig as a speaker by hooking up the Arduino’s key output jack to their rig‘s key input. CAUTION the key output is logic level so check your rig’s spec. Hooking up  the rig to a dummy load and the rig set rig’s power to low power.
@@ -19,6 +21,7 @@ The next block of code is a Letter array “Let Lray[]” used to convert Morse 
 Additionally other keys can be defined for make additional characters. Morse code includes pro-signs which seem to make sense for this application. Interestingly a handicap ham ask me if this would work with his Sip/Puff Switch he uses. He thought it might be fast to send morse code then the system he currently has setup. ARRL has an article abiut using the SIP/PUFF switch for sending morse code.
 While we’re talking keyboard emulation it should noted that whatever is sent by the Key is transmitter to the computer’s screen. So whichever window currently has focus will receive the characters. You can inadvertently add characters to a document or program listing on you computer. Remember to click the window you want the CW typewriter send to.
 I started my CW practice using Windows Note Pad, other OS have text editors as well. I figured if a computer could understand my CW so could a ham. Open notepad window and click inside the window. Now use the Iambic key to send letters, numbers. When you get up to words you can use the space switch to automatically sent a space to the computer when you pause. After using the note pad program to smooth out my CW. I found there were typing lessons and games on the internet that work with the CW typewriter. Those were fun because they would speed up as the game progressed, I enjoyed the balloon game. 
+
 GAMES LOCATED HERE: https://www.typing.com/student/lessons and https://www.typing.com/student/games.
 
 GAME:
