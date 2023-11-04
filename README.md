@@ -40,3 +40,5 @@ Second was to write a simple CW game program which used text files as the input 
 Additionally :
  I wanted to make the code “open source”. Since it’s a simple little program I hope others would add to it, or use it as a guide and thereby allow it to grow. 
 I also wanted it to work on the 3 commonly used operating systems, PC, MAC and Linux. Python plays on all these systems and it seemed like a good choice.
+
+The game can be downloaded with rest of the files. Its in a zip package called "Python_CW_game.zip". Unzip the game to its own folder so that the game and text files are all together. The game as a python3 sketch, with a few starter text files for practice.
